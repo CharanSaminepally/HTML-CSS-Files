@@ -1,0 +1,40 @@
+p{
+    width:125px;
+    height:75px;
+    background-color: darkred;
+    font-size:50px;
+    text-align:center;
+    margin:0px;
+}
+#p1{
+
+}
+#p2{
+    /*transform: translateX(100px);
+    transform: translateY(100px);
+    transform : translate(100px,100px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: rotate(90deg);
+    transform: scaleX(0.5);
+    transform: scaleY(0.5);
+    transform: scale(2,3);
+    transform: skewX(45deg);
+    transform: skewY(45deg);*/
+
+
+    transform: matrix(1,1,0,1,100,100);
+    /*
+    order of matrix 
+
+    scalex
+    skewy
+    skewx
+    scaley
+    translatex
+    translatey
+
+    */
+
+}

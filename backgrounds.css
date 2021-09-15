@@ -1,0 +1,24 @@
+html{
+    background-image: url("/files/space.jpeg");
+    color:thistle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /*
+    background:linear-gradient(grey,black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+}
+h1{
+    color:whitesmoke;
+    background:linear-gradient(to top,grey,black,red,yellow,blue,green);
+}
+#mytext{
+    background:linear-gradient(to Right,grey,hsl(308, 72%, 45%));
+    font-size: 20px;
+}

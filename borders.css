@@ -1,0 +1,28 @@
+body{
+    background-color: silver;
+    color:teal
+}
+h1{
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-color:fuchsia;
+    border-top-width: 10px;
+}
+p{
+    padding:5px;
+    border-style:solid;
+    border-style:dashed;
+    border-style:dotted;
+    border-style:double;
+    border-style:ridge;
+    border-style:groove;
+    border-style:inset;
+    border-style:outset;
+    border-width:5px;
+    border-color:#93f593;
+    border-radius:10px;
+    
+
+}

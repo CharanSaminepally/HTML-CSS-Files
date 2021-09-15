@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#444444;
+
+    /*flex-direction:column-reverse;
+    width:110px;*/
+    /*
+    justify-content: flex-start;
+    justify-content:center;
+    justify-content:flex-end;
+    justify-content: space-around;
+    */
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.container div{
+    color:white;
+    height:100px;
+    width:100px;
+    font-size:50px;
+    background-color:thistle;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+}

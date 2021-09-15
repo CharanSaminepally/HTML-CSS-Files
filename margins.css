@@ -1,0 +1,35 @@
+/*html{
+    margin-top: -21px;
+    margin-left:-8px;
+}*/
+h1{
+    border:5px solid;
+    width :250px;
+    margin-bottom: 10px;
+}
+p{
+    border:5px solid;
+    width:300px;
+    padding:15px;
+}
+#p1{
+    margin: 25px;
+}
+#p2{
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+#p3{
+    /*margin : 20%;*/
+}
+#p4{
+    margin-left:auto;
+}
+#p5{
+    margin-right:auto;
+}
+#p6{
+    margin:auto;
+}

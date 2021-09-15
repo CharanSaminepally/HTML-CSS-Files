@@ -1,0 +1,40 @@
+a:link{
+    color:thistle
+}
+a:visited{
+    color:tomato;
+}
+button:hover{
+    background-color: orange;
+}
+button:active{
+    background-color: violet;
+    color:white;
+}
+/*
+li:first-child{
+    background-color:paleturquoise;
+}
+li:last-child{
+    background-color:paleturquoise;
+}
+li:nth-child(3){
+    background-color: palevioletred;
+}
+li:nth-child(odd){
+    background-color: palevioletred;
+}
+*/
+li:nth-child(2n+1){
+    background-color: palevioletred;
+    /*
+    nth child = an+b
+    a = cycle size
+    n = counter
+    b = offset value
+    */
+    background-image: linear-gradient(to right, grey , black);
+    opacity:0.5;
+    border:3px solid;
+    border-color:red;
+}

@@ -1,0 +1,74 @@
+/* 
+p{
+    border: 2px solid;
+    width:250px;
+    padding:3px;
+}
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align:center;
+}
+#p3{
+    text-align: right;
+}
+*/
+
+/* float property
+
+
+img{
+    float:left;
+    margin:10px;
+}
+div{
+    border:2px solid;
+    width:250px;
+}
+*/
+
+/* postioning property*/
+/*
+h1{
+    border:2px solid;
+    background-color:cornflowerblue;
+    width:150px;
+
+    /*position:fixed; fixed place within viewport*/
+
+    /*position:relative; relative to it's normal position*/
+
+    /*position:sticky; sticks to view port when scrolling*/
+
+    /*position : static; default position  
+
+    top:15px;
+    right:15px;
+}
+*/
+#box1{
+    position:relative;
+    border:2px solid;
+    height:200px;
+    width:200px;
+    background-color: cornflowerblue;
+
+    top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#box2{
+    position:absolute;
+    /*position relative to it's positioned ancestor*/
+    /*otherwise relative to viewport*/
+    border:2px solid;
+    height:100px;
+    width:100px;
+    background-color: darkgray;
+
+    top:50px;
+    left:40px;
+    
+}

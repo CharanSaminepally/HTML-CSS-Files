@@ -1,0 +1,12 @@
+h1{
+    color:blue;
+    background-color: darkgrey;
+}
+h2{
+    color:crimson;
+    background-color:darksalmon
+}
+p{
+    color: hsla(56, 66%, 13%, 0.502);
+    background-color: deepskyblue;
+}
